@@ -14,6 +14,7 @@ face1 = new Path([
   Point(1, 2, 3),
   Point(1, 2, 2)
 ]); 
+face1.withLight = false;
 
 face2 = new Path([
   Point(1, 1, 2),
@@ -21,6 +22,7 @@ face2 = new Path([
   Point(2, 1, 3),
   Point(1, 1, 3)
 ]); 
+face2.withLight = false;
 
 face3 = new Path([
   Point(1, 1, 3),
@@ -28,6 +30,7 @@ face3 = new Path([
   Point(2, 2, 3),
   Point(2, 1, 3)
 ]); 
+face3.withLight = false;
 
 for (var i = 0; i < 3; ++i) {
     for (var j = 0; j < 3; ++j) {
